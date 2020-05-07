@@ -449,18 +449,22 @@
 	margin: 20px auto;
 	list-style: none;
 	box-sizing: border-box;
-
 	display: flex;
-
+}
+.img-edu
+{
+	width: 90px;
+	height: 100%;
+	border: 1px solid;
+	box-shadow: 3px 3px 5px #000;
+	margin: 0 15px 0 0;
+	border-radius: 10px;
+	border: 3px solid #fff;
 }
 .education .edu-image ul li img
 {
-	width: 90px;
-	height: 70px;
-	margin: 5px 15px;
-	border: 3px solid #fff;
-	border-radius: 50%;
-	box-shadow: 3px 3px 5px #000;
+	width: 100%;
+	height: 100%;
 }
 .edu-image ul li span
 {
@@ -1124,14 +1128,20 @@
 	{
 		margin: 0 auto;
 	}
+	.img-edu
+	{
+		width: 70px;
+		height: 70px;
+	}
 	.education .edu-image ul li img 
 	{
-		width: 50px;
-		height: 50px;
+		width: 100%;
+		height: 100%;
 
 	}
 	.edu-image ul li span
 	{
+		width: 70%;
 		font-size: 14px;
 	}
 	.hoby::before
@@ -1276,6 +1286,7 @@
 	#sec1 .content-first
 	{
 		display: block;
+		height: 350px;
 	}
 	.content-text
 	{
@@ -1316,7 +1327,7 @@
 	}
 	#sec2
 	{
-		height: 160%;
+		height: 150%;
 	}
 	#sec2 .banner-text::after
 	{
@@ -1371,7 +1382,7 @@
 	{
 		height: 320px;
 	}
-	.sec3
+	#sec3
 	{
 		width: 100%;
 		height: 220%;
@@ -1392,8 +1403,23 @@
 	{
 		height: 250px;
 	}
+	.education .edu-image ul
+	{
+		width: 100%;
+		height: 100%;
+	}
+	.education .edu-image ul li
+	{
+		height: 80px;
+	}
+	.img-edu
+	{
+		width: 70px;
+		height: 70px;
+	}
 	.edu-image ul li span
 	{
+		width: 70%;
 		font-size: 12px;
 	}
 	.hoby
@@ -1480,6 +1506,7 @@
 	}
 	#sec5
 	{
+		position: relative;
 		height: 40%;
 	}
 	.social-media ul li a
@@ -1492,6 +1519,8 @@
 	}
 	.footer
 	{
+		position: absolute;
+		bottom: 0;
 		height: 60px;
 	}
 	.footer p
